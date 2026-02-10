@@ -31,7 +31,7 @@ body {
     background-color: rgb(110, 157, 191);
     background-image: url('nm.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     padding: 50px;
 }
 
