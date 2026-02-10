@@ -16,6 +16,11 @@ header {
     padding: 5px;
 }
 
+h1,
+h2 {
+    text-align: center;
+}
+
 nav {
     background-color: #F0F3BD;
     padding: 5px;
@@ -41,17 +46,7 @@ blockquote {
     margin-top: 50px;
 }
 
-#individual {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: lightblue;
-    padding: 10px;
-    margin: auto;
-    margin-top: 50px;
-    width: 1200px;
-}
-
-#team {
+.gallery {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: lightblue;
