@@ -1,0 +1,43 @@
+/*
+Colors:
+Primary: #05668D
+Secondary: #028090
+Background: White
+Accent: #F0F3BD
+*/
+
+
+/*
+======= NAV STYLING =========
+*/
+
+header {
+    background-color: #05668D;
+    padding: 5px;
+}
+
+nav {
+    background-color: #F0F3BD;
+    padding: 5px;
+}
+
+
+/*blockquote {
+    max-width: 30%;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #028090;
+    padding: 15px;
+}*/
+
+#introDiv {
+    width: 600px;
+    height: 400px;
+    padding: 15px;
+    font-size: 30px;
+    background-color: lightblue;
+    margin: auto;
+    margin-top: 50px;
+}
