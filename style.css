@@ -70,11 +70,15 @@ body {
 .projectPic {
     width: 300px;
     height: 150px;
+    border-color: #3c3c3c;
+    border-width: 5px;
+    border-style: groove;
     -webkit-filter: grayscale(100%);
 }
 
 .projectPic:hover {
     filter: none;
+    border-color: #E6D2B7;
 }
 
 #aboutPhoto {
