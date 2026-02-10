@@ -41,7 +41,7 @@ blockquote {
     height: 400px;
     padding: 15px;
     font-size: 30px;
-    background-color: lightblue;
+    background-color: #028090;
     margin: auto;
     margin-top: 50px;
 }
@@ -49,7 +49,7 @@ blockquote {
 .gallery {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: lightblue;
+    background-color: #028090;
     padding: 10px;
     margin: auto;
     margin-top: 50px;
