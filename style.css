@@ -26,16 +26,6 @@ nav {
     padding: 5px;
 }
 
-blockquote {
-    max-width: 50%;
-    height: 200px;
-    margin-left: 500px;
-    font-size: 25px;
-    background-color: #028090;
-    padding: 10px;
-    text-align: center;
-}
-
 #introDiv {
     width: 600px;
     height: 400px;
@@ -44,6 +34,10 @@ blockquote {
     background-color: #028090;
     margin: auto;
     margin-top: 50px;
+}
+
+#aboutme {
+    display: flex;
 }
 
 .gallery {
@@ -59,11 +53,28 @@ blockquote {
 .projectPic {
     width: 300px;
     height: 150px;
+    -webkit-filter: grayscale(100%);
+}
+
+.projectPic:hover {
+    filter: none;
 }
 
 #aboutPhoto {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    margin-top: 70px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+blockquote {
+    max-width: 50%;
+    height: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    font-size: 25px;
+    background-color: #028090;
+    padding: 10px;
+    text-align: center;
 }
