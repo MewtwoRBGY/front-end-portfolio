@@ -221,10 +221,21 @@ blockquote {
 */
 
 #introDiv h2 {
-    font-size: 45px;
+    font-size: 60px;
+    font-family: "Brush Script MT", cursive;
 }
 
 h1,
 h2 {
     text-align: center;
+    font-family: "Tiempos Text", serif;
+}
+
+p {
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: 1.3;
+}
+
+blockquote {
+    font-family: "Garamond", serif;
 }
