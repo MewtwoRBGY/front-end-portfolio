@@ -21,16 +21,15 @@ nav {
     padding: 5px;
 }
 
-
-/*blockquote {
-    max-width: 30%;
+blockquote {
+    max-width: 50%;
     height: 200px;
     margin-left: 500px;
-    margin-top: 50px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #028090;
-    padding: 15px;
-}*/
+    padding: 10px;
+    text-align: center;
+}
 
 #introDiv {
     width: 600px;
@@ -65,4 +64,11 @@ nav {
 .projectPic {
     width: 300px;
     height: 150px;
+}
+
+#aboutPhoto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 70px;
 }
