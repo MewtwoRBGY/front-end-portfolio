@@ -36,6 +36,10 @@ footer {
     border-radius: 80%;
 }
 
+#upIcon:hover {
+    -webkit-filter: invert(100%);
+}
+
 .projButton {
     background-color: #97A8B4;
     padding: 5px;
