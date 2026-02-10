@@ -233,9 +233,14 @@ h2 {
 
 p {
     font-family: "Trebuchet MS", sans-serif;
-    line-height: 1.3;
+    line-height: 1.2;
+}
+
+a {
+    font-family: "Tiempos Text", serif;
 }
 
 blockquote {
     font-family: "Garamond", serif;
+    line-height: 1.5;
 }
