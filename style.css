@@ -86,7 +86,6 @@ h2 {
 
 nav {
     display: flex;
-    padding: 5px;
 }
 
 body {
@@ -95,7 +94,9 @@ body {
 
 #intro {
     background-color: rgb(110, 157, 191);
-    /*background-image: url('images-1.png');*/
+    background-image: url('nm.png');
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
     padding: 50px;
 }
 
@@ -151,6 +152,7 @@ body {
 
 #aboutme {
     margin-top: 250px;
+    margin-bottom: 50px;
 }
 
 #aboutPhoto {
