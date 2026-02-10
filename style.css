@@ -16,6 +16,11 @@ header {
     padding: 5px;
 }
 
+footer {
+    background-color: #05668D;
+    padding: 5px;
+}
+
 h1,
 h2 {
     text-align: center;
@@ -34,6 +39,11 @@ nav {
     background-color: #028090;
     margin: auto;
     margin-top: 50px;
+    text-align: center;
+}
+
+#introDiv h2 {
+    font-size: 45px;
 }
 
 #aboutme {
@@ -79,4 +89,7 @@ blockquote {
     background-color: #028090;
     padding: 10px;
     text-align: center;
+    border-color: #05668D;
+    border-width: 5px;
+    border-style: groove;
 }
