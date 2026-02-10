@@ -163,6 +163,8 @@ a:active {
     border-width: 10px;
     border-style: groove;
     -webkit-filter: grayscale(100%);
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .projectPic:hover {
