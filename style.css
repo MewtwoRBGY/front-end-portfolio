@@ -8,7 +8,7 @@ Accent: #E6D2B7
 
 
 /*
-======= NAV STYLING =========
+======= SECTION COLORING AND STYLING =========
 */
 
 header {
@@ -21,6 +21,50 @@ footer {
     background-color: #2B4162;
     padding: 5px;
     color: white;
+}
+
+body {
+    background-color: #F5F0F6;
+}
+
+#intro {
+    background-color: rgb(110, 157, 191);
+    background-image: url('nm.png');
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
+    padding: 50px;
+}
+
+#introDiv {
+    width: 600px;
+    height: 400px;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #97A8B4;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-color: #2B4162;
+    border-width: 5px;
+    border-style: groove;
+}
+
+#individual {
+    margin-top: 50px;
+}
+
+#aboutme {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+
+/*
+======= NAV STYLING =========
+*/
+
+nav {
+    display: flex;
 }
 
 ul {
@@ -56,129 +100,6 @@ li a:hover {
     top: 0;
 }
 
-#upIcon {
-    width: 50px;
-    height: 50px;
-    border-radius: 80%;
-}
-
-#upIcon:hover {
-    -webkit-filter: invert(100%);
-}
-
-.projButton {
-    background-color: #97A8B4;
-    padding: 5px;
-    display: block;
-    margin: 0 auto;
-    border-color: #97A8B4;
-}
-
-.projButton:hover {
-    background-color: #385F71;
-    border-color: #385F71;
-}
-
-h1,
-h2 {
-    text-align: center;
-}
-
-nav {
-    display: flex;
-}
-
-body {
-    background-color: #F5F0F6;
-}
-
-#intro {
-    background-color: rgb(110, 157, 191);
-    background-image: url('nm.png');
-    background-repeat: no-repeat;
-    background-size: 1500px 600px;
-    padding: 50px;
-}
-
-#introDiv {
-    width: 600px;
-    height: 400px;
-    padding: 15px;
-    font-size: 30px;
-    background-color: #97A8B4;
-    margin: auto;
-    margin-top: 50px;
-    text-align: center;
-    border-color: #2B4162;
-    border-width: 5px;
-    border-style: groove;
-}
-
-#introDiv h2 {
-    font-size: 45px;
-}
-
-#aboutFlex {
-    display: flex;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-
-.projectPic {
-    width: 300px;
-    height: 150px;
-    border-color: #3c3c3c;
-    border-width: 10px;
-    border-style: groove;
-    -webkit-filter: grayscale(100%);
-}
-
-.projectPic:hover {
-    filter: none;
-    border-color: #385F71;
-}
-
-#individual {
-    margin-top: 50px;
-}
-
-#aboutme {
-    margin-top: 250px;
-    margin-bottom: 50px;
-}
-
-#aboutPhoto {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-}
-
-#aboutFigure {
-    text-align: center;
-}
-
-blockquote {
-    max-width: 50%;
-    height: 200px;
-    margin-left: 100px;
-    margin-top: 60px;
-    font-size: 25px;
-    background-color: #97A8B4;
-    padding: 10px;
-    text-align: center;
-    border-color: #2B4162;
-    border-width: 5px;
-    border-style: groove;
-}
-
 a:link {
     color: #e6a652;
 }
@@ -202,4 +123,108 @@ a:hover {
 
 a:active {
     color: rgb(233, 9, 9);
+}
+
+
+/*
+======= PHOTOS STYLING =========
+*/
+
+#upIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+
+#upIcon:hover {
+    -webkit-filter: invert(100%);
+}
+
+.projectPic {
+    width: 300px;
+    height: 150px;
+    border-color: #3c3c3c;
+    border-width: 10px;
+    border-style: groove;
+    -webkit-filter: grayscale(100%);
+}
+
+.projectPic:hover {
+    filter: none;
+    border-color: #385F71;
+}
+
+#aboutPhoto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#aboutFigure {
+    text-align: center;
+}
+
+
+/*
+======= PROJECT GRID STYLING =========
+*/
+
+.projButton {
+    background-color: #97A8B4;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    border-color: #97A8B4;
+}
+
+.projButton:hover {
+    background-color: #385F71;
+    border-color: #385F71;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/*
+======= ABOUT ME STYLING =========
+*/
+
+#aboutFlex {
+    display: flex;
+}
+
+blockquote {
+    max-width: 50%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 25px;
+    background-color: #97A8B4;
+    padding: 10px;
+    text-align: center;
+    border-color: #2B4162;
+    border-width: 5px;
+    border-style: groove;
+}
+
+
+/*
+======= TYPOGRAPHY =========
+*/
+
+#introDiv h2 {
+    font-size: 45px;
+}
+
+h1,
+h2 {
+    text-align: center;
 }
