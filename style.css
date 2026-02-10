@@ -21,11 +21,32 @@ footer {
     padding: 5px;
 }
 
-button {
+.topButton {
+    background-color: rbga(0, 0, 0, 0);
+    padding: 5px;
+    display: block;
+    position: sticky;
+    border-width: 0px;
+    top: 0;
+}
+
+#upIcon {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+
+.projButton {
     background-color: #97A8B4;
     padding: 5px;
     display: block;
     margin: 0 auto;
+    border-color: #97A8B4;
+}
+
+.projButton:hover {
+    background-color: #385F71;
+    border-color: #385F71;
 }
 
 h1,
@@ -85,7 +106,7 @@ body {
 
 .projectPic:hover {
     filter: none;
-    border-color: #E6D2B7;
+    border-color: #385F71;
 }
 
 #aboutPhoto {
@@ -110,4 +131,29 @@ blockquote {
     border-color: #2B4162;
     border-width: 5px;
     border-style: groove;
+}
+
+a:link {
+    color: #e6a652;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: rgb(0, 88, 26);
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: rgb(185, 176, 0);
+}
+
+
+/* selected link */
+
+a:active {
+    color: rgb(233, 9, 9);
 }
