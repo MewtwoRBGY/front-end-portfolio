@@ -1,9 +1,9 @@
 /*
 Colors:
-Primary: #05668D
-Secondary: #028090
-Background: White
-Accent: #F0F3BD
+Primary: #2B4162
+Secondary: #97A8B4
+Background: #F5F0F6
+Accent: #E6D2B7
 */
 
 
@@ -12,12 +12,12 @@ Accent: #F0F3BD
 */
 
 header {
-    background-color: #05668D;
+    background-color: #2B4162;
     padding: 5px;
 }
 
 footer {
-    background-color: #05668D;
+    background-color: #2B4162;
     padding: 5px;
 }
 
@@ -27,8 +27,12 @@ h2 {
 }
 
 nav {
-    background-color: #F0F3BD;
+    background-color: #E6D2B7;
     padding: 5px;
+}
+
+body {
+    background-color: #F5F0F6;
 }
 
 #introDiv {
@@ -36,10 +40,13 @@ nav {
     height: 400px;
     padding: 15px;
     font-size: 30px;
-    background-color: #028090;
+    background-color: #97A8B4;
     margin: auto;
     margin-top: 50px;
     text-align: center;
+    border-color: #2B4162;
+    border-width: 5px;
+    border-style: groove;
 }
 
 #introDiv h2 {
@@ -86,10 +93,10 @@ blockquote {
     margin-left: 100px;
     margin-top: 60px;
     font-size: 25px;
-    background-color: #028090;
+    background-color: #97A8B4;
     padding: 10px;
     text-align: center;
-    border-color: #05668D;
+    border-color: #2B4162;
     border-width: 5px;
     border-style: groove;
 }
