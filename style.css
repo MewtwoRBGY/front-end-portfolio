@@ -23,8 +23,33 @@ footer {
     color: white;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E6D2B7;
+    ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #1f2427;
+}
+
 .topButton {
-    background-color: #F5F0F6;
+    /*Transparent so it does not show up behind icon as a square*/
+    background-color: #ffffff00;
     padding: 5px;
     display: block;
     position: sticky;
@@ -61,12 +86,18 @@ h2 {
 }
 
 nav {
-    background-color: #E6D2B7;
+    display: flex;
     padding: 5px;
 }
 
 body {
     background-color: #F5F0F6;
+}
+
+#intro {
+    background-color: rgb(110, 157, 191);
+    /*background-image: url('images-1.png');*/
+    padding: 50px;
 }
 
 #introDiv {
@@ -87,7 +118,7 @@ body {
     font-size: 45px;
 }
 
-#aboutme {
+#aboutFlex {
     display: flex;
 }
 
@@ -113,6 +144,14 @@ body {
 .projectPic:hover {
     filter: none;
     border-color: #385F71;
+}
+
+#individual {
+    margin-top: 50px;
+}
+
+#aboutme {
+    margin-top: 250px;
 }
 
 #aboutPhoto {
@@ -147,7 +186,7 @@ a:link {
 /* visited link */
 
 a:visited {
-    color: rgb(0, 88, 26);
+    color: rgb(0, 138, 41);
 }
 
 
