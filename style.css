@@ -58,6 +58,12 @@ body {
     margin-bottom: 50px;
 }
 
+.subPageFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 
 /*
 ======= NAV STYLING =========
@@ -174,7 +180,11 @@ a:active {
     padding: 5px;
     display: block;
     margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-color: #97A8B4;
+    height: 50px;
+    width: 200px;
 }
 
 .projButton:hover {
@@ -183,6 +193,16 @@ a:active {
 }
 
 .gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.fullgallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
@@ -243,4 +263,8 @@ a {
 blockquote {
     font-family: "Garamond", serif;
     line-height: 1.5;
+}
+
+.projButton {
+    font-size: 15px;
 }
