@@ -11,6 +11,11 @@ Accent: #E6D2B7
 ======= SECTION COLORING AND STYLING =========
 */
 
+body,
+html {
+    margin: 0;
+}
+
 header {
     background-color: #2B4162;
     padding: 5px;
