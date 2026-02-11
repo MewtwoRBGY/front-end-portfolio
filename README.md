@@ -4,6 +4,7 @@
 Additonal Requirements Chosen:
 Layout Systm: Used CSS Grid to make grid of project cards
 Sticky Element: Implemented a sticky "Go To Top" button
+Fixed Element: Footer is fixed
 Hover and Interaction Effects: Project cards remove grayscale when clicked, nav bar elements change color when hovered, "Go To Top" button inverts its colors when hovered
 
 Recieved help with Navbar from Eljay Jimenez

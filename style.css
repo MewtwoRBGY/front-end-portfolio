@@ -27,12 +27,6 @@ header {
     margin-bottom: 5px;
 }*/
 
-footer {
-    background-color: #2B4162;
-    padding: 5px;
-    color: white;
-}
-
 body {
     background-color: #F5F0F6;
 }
@@ -63,12 +57,19 @@ body {
     margin-top: 50px;
 }
 
+#team {
+    margin-top: 50px;
+}
+
 #aboutme {
     margin-top: 180px;
     margin-bottom: 50px;
 }
 
-.subPageFooter {
+footer {
+    background-color: #2B4162;
+    padding: 5px;
+    color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
