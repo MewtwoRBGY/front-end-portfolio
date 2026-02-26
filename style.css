@@ -229,6 +229,11 @@ a:active {
     align-content: center;
 }
 
+#team,
+#individual {
+    padding-bottom: 100px;
+}
+
 
 /*
 ======= ABOUT ME STYLING =========
